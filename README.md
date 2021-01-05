@@ -5,9 +5,14 @@ Instructions:
 Press spacebar to start/resume the game
 
 *Player 1:*
-  Move Up: W
-  Move Down: S
+ 
+Move Up: W
+ 
+Move Down: S
+
 
 *Player 2:*
-  Move Up: Up arrow
-  Move Down: Down arrow
+
+Move Up: Up arrow
+
+Move Down: Down arrow
