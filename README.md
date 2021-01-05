@@ -16,3 +16,7 @@ Move Down: S
 Move Up: Up arrow
 
 Move Down: Down arrow
+
+
+# Play now:
+https://stban2703.github.io/P5JS-Pong-Game/
