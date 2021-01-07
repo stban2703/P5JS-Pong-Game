@@ -1,4 +1,5 @@
 # P5JS-Pong-Game
+A classic Pong videogame created with Javascript and P5JS library from https://processing.org/
 
 Instructions:
 
