@@ -24,12 +24,12 @@ function setup() {
     playerTwo.setPosX(screenWidth - 50 - playerTwo.width)
     playerTwo.setPosY((screenHeight / 2) - (playerOne.height / 2));
 
-    ball = new Ball(screenWidth / 2, screenHeight / 2, 10, 5, 5, 12);
+    ball = new Ball(screenWidth / 2, screenHeight / 2, 10, 5, 5, 10);
 
     resetBallPos(playerOne.posX + playerOne.width + 50);
     isPlaying = false;
     isFinished = false;
-    winningScore = 1;
+    winningScore = 7;
 
     startBtn = new Button(screenWidth / 2, screenHeight - 100, 200, 50, "Start");
     resetBtn = new Button(screenWidth / 2, screenHeight / 2 + 100, 150, 40, "Rematch");
@@ -130,8 +130,6 @@ function draw() {
                     cursor(ARROW);
                 }
             }
-
-            console.log(ball.posX);
             break;
     }
 }
