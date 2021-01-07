@@ -37,4 +37,5 @@ class Player {
     setPosY(posY) {
         this.posY = posY;
     }
+    
 }
